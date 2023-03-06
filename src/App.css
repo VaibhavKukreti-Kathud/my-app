@@ -1,5 +1,39 @@
 .App {
-  text-align: center;
+  text-align: left;
+  padding: 16px;
+  background-color: #282c34;
+
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #ffe0b4;
+  font-family: 'Open sans', sans-serif;
+
+}
+
+p {
+  font-size: 1.1em;
+  color: #ddc39e;
+  font-family: 'Open sans', sans-serif;
+}
+
+button {
+  outline: none;
+  border-color: antiquewhite;
+  border-style: solid;
+  background-color: #282c34;
+  color: antiquewhite;
+  border-radius: 25px;
+  padding: 16px;
+
+  font-family: 'Open sans', sans-serif;
+}
+
+button :hover {
+  background-color: #ddc39e;
+  color: #282c34;
 }
 
 .App-logo {
@@ -32,6 +66,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
